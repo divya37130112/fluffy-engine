@@ -1,0 +1,12 @@
+var fruits = ['guva','mango','apple','orange','banana','strawberry'];
+
+// 1 st method
+fruits.indexOf('orange');//(3)
+
+//2 nd method
+fruits.findIndex(function(item){
+  return item === 'guva'; //(0)
+});
+
+//3rd method
+fruits.includes('mango');//(true)
